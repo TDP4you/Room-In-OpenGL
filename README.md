@@ -8,4 +8,4 @@ Tutorials Followed - https://learnopengl.com/
 
 YouTube URL (Video Demonstration) - https://www.youtube.com/watch?v=BD134JN4DGg&t=42s
 
-!alt_text(https://github.com/TDP4you/Room-In-OpenGL/blob/master/Screenshot.jpg)
+![alt_text](https://github.com/TDP4you/Room-In-OpenGL/blob/master/Screenshot.jpg)
