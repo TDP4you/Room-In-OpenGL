@@ -1,0 +1,6 @@
+﻿  Main.cpp
+e:\my work\univesity bonn\semester 1\computer graphics lab\final project\procedural_modelling_program\procedural_modeling_program\visualisation\shader.h(83): warning C4101: 'infoLog': unreferenced local variable
+e:\my work\univesity bonn\semester 1\computer graphics lab\final project\procedural_modelling_program\procedural_modeling_program\visualisation\shader.h(82): warning C4101: 'success': unreferenced local variable
+e:\my work\univesity bonn\semester 1\computer graphics lab\final project\procedural_modelling_program\procedural_modeling_program\visualisation\model.h(196): warning C4101: 'nrComponents': unreferenced local variable
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Procedural_Modeling_Program.vcxproj -> E:\My Work\Univesity Bonn\Semester 1\Computer Graphics Lab\Final Project\Procedural_Modelling_Program\Debug\Procedural_Modeling_Program.exe

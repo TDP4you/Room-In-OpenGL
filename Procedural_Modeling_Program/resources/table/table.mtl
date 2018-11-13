@@ -1,0 +1,11 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 15.09.2014 13:26:58
+
+newmtl Mat
+Ka 0.8392 0.8980 0.6510
+Kd 0.8392 0.8980 0.6510
+Ks 0.3500 0.3500 0.3500
+Ns 32
+d 1
+map_Kd wood-textures.jpg
+

@@ -1,0 +1,14 @@
+# Blender3D MTL File: burlap_sofa_sweethome3d.blend
+# Material Count: 4
+
+newmtl Material.001
+Ns 0.00
+Ka 0.00 0.00 0.00
+Kd 0.93 0.90 0.81
+Ks 0.08 0.08 0.08
+Ni 1.0
+d 1.0
+illum 2
+map_Kd sofa.jpg
+
+

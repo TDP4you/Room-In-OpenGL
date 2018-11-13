@@ -1,0 +1,10 @@
+Start-Symbol={Room}
+Non-Terminals={Sleep_Area,Study_Area}
+Terminals={WALL1,WALL2,WALL3,WALL4,PICTURE,BED,CLOSET,LIGHT,CHAIR,TABLE,WINDOW,DOOR,FLOOR}
+place(WALL1,40,40)
+place(chair,35,105)
+place(bed,700,45)
+place(closet,700,300)
+split(room,sleep-area,study-area,)
+split(sleep-area,bed,closet,)
+split(study-area,table,chair,)

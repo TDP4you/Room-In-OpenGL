@@ -1,0 +1,10 @@
+# Blender MTL
+# Material Count: 1
+
+newmtl Material.001
+Ns 96.078431
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+map_Ka mercury.jpg
+map_Kd mercury.jpg

@@ -1,0 +1,36 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 28.11.2016 23:03:29
+
+newmtl Saturn_Mat
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka saturnmap.jpg
+	map_Kd saturnmap.jpg
+	map_bump saturnmap.jpg
+	bump saturnmap.jpg
+	map_refl falloff_Falloff.jpg
+
+newmtl Rings_Mat
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka saturnringcolor.jpg
+	map_Kd saturnringcolor.jpg
+	map_bump saturnringcolor.jpg
+	bump saturnringcolor.jpg
+	map_refl falloff_Falloff.jpg

@@ -1,0 +1,23 @@
+Start_Symbol=Room
+Terminals=Desk,Chair,Bed,Closet
+1:Room->C(400,400,200) S(800,800,400) Comp('front'){Wall1} Comp('left'){Wall2} Comp('back'){Wall3} Comp('right'){Wall4} Comp('up'){Ceiling} Comp('down'){Floor}
+2:Ceiling->Subdiv("X",0.5,0.5){Lamp1|Lamp2}
+3:Lamp1->C(250,400,400) S(100,100,20) I('cube')
+4:Lamp2->C(450,400,400) S(100,100,20) I('cube')
+5:Floor->Subdiv("X",0.5,0.5){Sleep_Area|Study_Area}
+6:Sleep_Area->Subdiv("X",0.2,0.8){Closet|Bed}
+7:Study_Area->Subdiv("X",0.2,0.8){Desk|Chair}
+8:Wall1->Comp('facade'){Door}
+9:Wall4->Comp('facade'){Window}
+10:Wall1->C(400,10,200) S(800,20,400) I('cube')
+11:Wall2->C(10,400,200) S(20,800,400) I('cube')
+12:Wall3->C(400,800,200) S(800,20,400) I('cube')
+13:Wall4->C(800,800,200) S(20,800,400) I('cube')
+14:Ceiling->C(400,400,400) S(800,800,20) I('cube')
+15:Floor->C(400,400,0) S(800,800,20) I('cube')
+16:Desk->C(600,30,25) S(120,60,50) Ry(0) I('cube') pair(Chair)
+17:Chair->C(600,130,10) S(60,60,20) Ry(180) I('cube') pair(Desk)
+18:Bed->C(200,650,20) S(120,60,40) Ry(0) I('cube')
+19:Closet->C(10,510,150) S(20,200,300) Ry(0) I('cube')
+20:Door->C(125,10,125) S(150,20,250) I('cube')
+21:Window->C(400,400,100) S(20,200,100) I('cube') 

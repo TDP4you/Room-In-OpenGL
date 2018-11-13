@@ -1,0 +1,8 @@
+bed: 700,45,130,90
+closet: 700,300,100,120
+table: 40,40,75,75
+chair: 35,105,30,30
+
+room: sleep-area,study-area,
+sleep-area: bed,closet,
+study-area: table,chair,

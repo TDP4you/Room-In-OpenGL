@@ -1,0 +1,10 @@
+non-terminals=sleep-area,study-area
+start-symbol=room
+room(400,200)
+place(table,40,40)
+place(chair,35,105)
+place(bed,700,45)
+place(closet,700,300)
+split(room,sleep-area,study-area,)
+split(sleep-area,bed,closet,)
+split(study-area,table,chair,)

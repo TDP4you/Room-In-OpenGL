@@ -1,0 +1,10 @@
+# Blender MTL
+# Material Count: 1
+
+newmtl Material.001
+Ns 96.078431
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0.01 0.01 0.01
+map_Ka venus_atmosphere.jpg
+map_Kd venus_atmosphere.jpg

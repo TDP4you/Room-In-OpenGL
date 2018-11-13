@@ -1,0 +1,13 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 08.08.2014 12:43:01
+
+newmtl tvset
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Ka 0.011765 0.011765 0.011765
+	Kd 0.011765 0.011765 0.011765
+	Ks 0.540000 0.540000 0.540000
+	Ke 0.000000 0.000000 0.000000
+	map_Kd tv.jpg
+	map_Ka Frame_bump.jpg

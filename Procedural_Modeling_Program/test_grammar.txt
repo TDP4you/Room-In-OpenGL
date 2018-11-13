@@ -1,0 +1,15 @@
+Start_Symbol=room
+1:room->S(15,12,10) Comp('front'){fwall} Comp('left'){lwall} Comp('back'){bwall} Comp('right'){rwall} Comp('up'){ceiling} Comp('down'){floor}
+5:floor->Comp(''){desk} Comp(''){chair}
+8:fwall->Comp('facade'){door}
+9:rwall->Comp('facade'){window}
+10:fwall->S(15,10,20) I('resources/wall/wall.jpg')
+11:lwall->S(12,10,15) I('resources/wall/wall.jpg')
+12:bwall->S(12,10,15) I('resources/wall/wall.jpg')
+13:rwall->S(15,12,10) I('resources/wall/wall.jpg')
+14:ceiling->S(15,12,10) I('resources/ceiling.png')
+15:floor->S(15,12,10) I('resources/floor/floor.jpg')
+16:desk->C(5.0f,-4.0f,4.0f) S(2.0f, 2.0f, 2.0f) Ry(0) I('resources/cube_1/cube.obj') pair(chair)
+17:chair->C(2.0f,-4.0f,-3.0f) S(3.0f,2.0f,4.0f) Ry(180) I('resources/cube_2/cube.obj') pair(desk)
+20:door->I('resources/door/door.jpg')
+21:window->I('resources/window/window.jpg') 
